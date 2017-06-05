@@ -1,0 +1,11 @@
+[Unit]
+Description=Thermomin. MLX90621 service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/thermomin
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
