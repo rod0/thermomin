@@ -6,17 +6,17 @@ finish Readme.md
 # Installation
 First of all activate i2c
 
-###sudo raspi-config -> interfacing options -> i2c ->enable
+```sudo raspi-config -> interfacing options -> i2c ->enable
 
 Select 400k as i2c baudrate 
 
-nano /boot/config.txt and add at the end: dtparam=i2c_baudrate=400000
+```nano /boot/config.txt and add at the end: dtparam=i2c_baudrate=400000
 
-cd thermomin
+```cd thermomin
 
-make
+```make
 
-chmod +x install.sh
+```chmod +x install.sh
 
-sudo ./install.sh
+```sudo ./install.sh
 
