@@ -10,13 +10,15 @@ First of all activate i2c
 
 Select 400k as i2c baudrate 
 
-```nano /boot/config.txt``` and add at the end:```dtparam=i2c_baudrate=400000```
+```sudo nano /boot/config.txt``` and add at the end: ```dtparam=i2c_baudrate=400000```
 
-```cd thermomin
+```sudo reboot```
 
-make
+```cd thermomin```
 
-chmod +x install.sh
+```make```
 
-sudo ./install.sh```
+```chmod +x install.sh```
+
+```sudo ./install.sh```
 
