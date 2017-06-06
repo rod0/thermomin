@@ -6,7 +6,7 @@ finish Readme.md
 # Installation
 First of all activate i2c
 
-sudo raspi-config 
+###sudo raspi-config -> interfacing options -> i2c ->enable
 
 Select 400k as i2c baudrate 
 
