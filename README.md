@@ -22,3 +22,8 @@ Select 400k as i2c baudrate
 
 ```sudo ./install.sh```
 
+Test the service
+
+```cd ./examples```
+
+```python ./simpletest.py```
