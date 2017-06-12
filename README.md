@@ -3,6 +3,8 @@ MLX90621 simple, clear and robust service for raspberry Pi .<h4>Stable but not f
 TODO:
 finish Readme.md
 
+![alt text](http://i.imgur.com/c2Vv2Rv.png)
+
 # Installation
 First of all activate i2c
 
