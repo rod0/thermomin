@@ -7,7 +7,7 @@ The purpose of this project was to make a robust service to capture MLX90621 dat
 
 ![alt text](http://i.imgur.com/c2Vv2Rv.png)
 
-# Installationç
+# Installation
 
 **First of all activate i2c**
 
