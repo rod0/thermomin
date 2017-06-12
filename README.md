@@ -18,6 +18,8 @@ Select 400k as i2c baudrate
 
 ```sudo reboot```
 
+Install thermomin
+
 ```git clone https://github.com/rod0/thermomin```
 
 ```cd thermomin```
