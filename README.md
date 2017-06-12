@@ -8,11 +8,11 @@ The purpose of this project was to make a robust service to capture MLX90621 dat
 ![alt text](http://i.imgur.com/c2Vv2Rv.png)
 
 # Installation
-*First of all activate i2c
+ Markup : *First of all activate i2c
 
 ```sudo raspi-config ->interfacing options ->i2c ->enable```
 
-*Select 400k as i2c baudrate 
+ Markup : *Select 400k as i2c baudrate 
 
 ```sudo nano /boot/config.txt``` and add at the end: ```dtparam=i2c_baudrate=400000```
 
